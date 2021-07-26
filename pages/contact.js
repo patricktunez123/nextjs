@@ -1,12 +1,10 @@
 import React from "react";
-import Head from "next/head";
+import Meta from "../components/Meta";
+
 const contact = () => {
   return (
     <div>
-      <Head>
-        <title>Contact us</title>
-        <meta name="description" content="This is the contact us page" />
-      </Head>
+      <Meta title="contact us" />
       this is the contact us page
     </div>
   );
